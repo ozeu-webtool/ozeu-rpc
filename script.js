@@ -1,1 +1,419 @@
-class _0x1a2b3c{constructor(){this['_0x4d5e6f']=!1,this['_0x7890ab']=null,this['_0x12cdef']=null,this['_0x345678']='online',this['_0x90abcd']=null,this['_0xef1234'](),this['_0x567890'](),this['_0xabcdef']();}_0xef1234(){this['_0x123456']={_0x789abc:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('userToken'),_0xdef012:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('connectBtn'),_0x345def:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('connectionStatus'),_0x678901:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('username'),_0x234abc:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('userStatus'),_0x567def:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activity'),_0x890123:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activityDisplay'),_0x456def:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activityCard'),_0x789012:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activityIcon'),_0x345abc:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activityType'),_0x678def:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activityName'),_0x901234:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activityDetails'),_0x567abc:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('logContainer'),_0x890def:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('clearLogs'),_0x123def:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('customActivityName'),_0x456789:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('customActivityDetails'),_0x7890ff:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('customActivityState'),_0x012345:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activityTypeSelect'),_0x678abc:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('statusSelect'),_0x901def:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('setActivityBtn'),_0x234567:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('clearActivityBtn'),_0x567890:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('setStatusBtn'),_0x890abc:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('disconnectBtn'),_0x9ffedc:document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('ozeuModeBtn')};}_0x567890(){this['_0x123456']['_0xdef012'][atob('YWRkRXZlbnRMaXN0ZW5lcg==')]('click',()=>{const _0xa=this['_0x123456']['_0x789abc'][atob('dmFsdWU=')][atob('dHJpbQ==')]();_0xa?this['_0xfedcba'](_0xa):this['_0x789def']('エラー: トークンを入力してください','error');});this['_0x123456']['_0x890def'][atob('YWRkRXZlbnRMaXN0ZW5lcg==')]('click',()=>{this['_0x123456']['_0x567abc'][atob('aW5uZXJIVE1M')]='';});this['_0x123456']['_0x789abc'][atob('YWRkRXZlbnRMaXN0ZW5lcg==')]('keypress',_0xb=>{_0xb[atob('a2V5')]==='Enter'&&this['_0x123456']['_0xdef012'][atob('Y2xpY2s=')]();});this['_0x123456']['_0x901def']?this['_0x123456']['_0x901def'][atob('YWRkRXZlbnRMaXN0ZW5lcg==')]('click',()=>{this['_0x456123']();}):console[atob('ZXJyb3I=')]('setActivityBtn element not found');this['_0x123456']['_0x234567']?this['_0x123456']['_0x234567'][atob('YWRkRXZlbnRMaXN0ZW5lcg==')]('click',()=>{this['_0x789456']();}):console[atob('ZXJyb3I=')]('clearActivityBtn element not found');this['_0x123456']['_0x567890']?this['_0x123456']['_0x567890'][atob('YWRkRXZlbnRMaXN0ZW5lcg==')]('click',()=>{this['_0xabc123']();}):console[atob('ZXJyb3I=')]('setStatusBtn element not found');this['_0x123456']['_0x890abc']?this['_0x123456']['_0x890abc'][atob('YWRkRXZlbnRMaXN0ZW5lcg==')]('click',()=>{this['_0xdef456']();}):console[atob('ZXJyb3I=')]('disconnectBtn element not found');this['_0x123456']['_0x9ffedc']?this['_0x123456']['_0x9ffedc'][atob('YWRkRXZlbnRMaXN0ZW5lcg==')]('click',()=>{this['_0xfedabc']();}):console[atob('ZXJyb3I=')]('ozeuModeBtn element not found');}_0x789def(_0xc,_0xd='info'){const _0xe=new Date()['toLocaleTimeString'](),_0xf=document['createElement']('div');_0xf['className']=`log-message ${_0xd}`,_0xf['innerHTML']=`<span class=\"timestamp\">[${_0xe}]</span> ${_0xc}`,this['_0x123456']['_0x567abc']['appendChild'](_0xf),this['_0x123456']['_0x567abc']['scrollTop']=this['_0x123456']['_0x567abc']['scrollHeight'];}_0x123def(_0x10,_0x11='info'){this['_0x123456']['_0x345def']['textContent']=_0x10,this['_0x123456']['_0x345def']['className']=`status-indicator ${_0x11}`;}async _0xfedcba(_0x12){this['_0x789def']('サーバーに接続中...');this['_0x123def']('接続中...','connecting');try{const _0x13=await fetch('/api/connect',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON['stringify']({token:_0x12,sessionId:this['_0x90abcd']})}),_0x14=await _0x13['json']();_0x13['ok']?(this['_0x90abcd']=_0x14['sessionId'],this['_0x789def'](_0x14['message']),this['_0x123def']('接続中...','connecting'),setTimeout(()=>this['_0x456def'](),6000)):(this['_0x789def'](_0x14['error'],'error'),this['_0x123def']('エラー','error'));}catch(_0x15){this['_0x789def']('サーバーへの接続に失敗しました','error'),this['_0x123def']('エラー','error');}}async _0x456def(){if(!this['_0x90abcd'])return;try{const _0x16=await fetch(`/api/status?sessionId=${this['_0x90abcd']}`),_0x17=await _0x16['json']();_0x17['isConnected']?(this['_0x4d5e6f']=!0,this['_0x7890ab']=_0x17['user'],this['_0x123def']('接続済み','success'),this['_0x123456']['_0x678901']['textContent']=`${_0x17['user']['username']}#${_0x17['user']['discriminator']}`,_0x17['currentActivity']&&this['_0x789abc'](_0x17['currentActivity']),this['_0x012def'](_0x17['currentStatus']),this['_0x789fff']()):(this['_0x123def']('接続中...','connecting'),setTimeout(()=>this['_0x456def'](),3000));}catch(_0x18){this['_0x789def']('ステータス取得に失敗しました','error'),setTimeout(()=>this['_0x456def'](),5000);}}_0x789fff(){document['getElementById']('userInfo')['style']['display']='block';document['getElementById']('activitySection')['style']['display']='block';document['getElementById']('logSection')['style']['display']='block';}_0xabcdef(){setInterval(async()=>{this['_0x4d5e6f']&&await this['_0x456def']();},30000);setInterval(()=>{fetch('/api/status?sessionId=keepalive').catch(()=>{});},25000);}_0x012def(_0x19){this['_0x123456']['_0x234abc']['textContent']=this['_0x345def'](_0x19),this['_0x123456']['_0x234abc']['className']=`user-status status-${_0x19}`;}_0x789abc(_0x1a){const _0x1b=this['_0x678def'](_0x1a['type']),_0x1c=this['_0x901abc'](_0x1a['type']);this['_0x123456']['_0x789012']['textContent']=_0x1c,this['_0x123456']['_0x345abc']['textContent']=_0x1b,this['_0x123456']['_0x678def']['textContent']=_0x1a['name']||'-';let _0x1d='';_0x1a['details']&&(_0x1d+=_0x1a['details']),_0x1a['state']&&(_0x1d&&(_0x1d+=' - '),_0x1d+=_0x1a['state']),this['_0x123456']['_0x901234']['textContent']=_0x1d||'-',this['_0x123456']['_0x567def']['textContent']=`${_0x1b} ${_0x1a['name']}`,this['_0x123456']['_0x890123']['style']['display']='block';}_0xdef123(){this['_0x123456']['_0x567def']['textContent']='アクティビティなし',this['_0x123456']['_0x890123']['style']['display']='none';}_0x345def(_0x1e){const _0x1f={online:'オンライン',idle:'離席中',dnd:'取り込み中',offline:'オフライン',invisible:'オフライン'};return _0x1f[_0x1e]||_0x1e;}_0x678def(_0x20){const _0x21={0:'プレイ中',1:'ストリーミング',2:'聞いている',3:'視聴中',5:'競技中'};return _0x21[_0x20]||'不明';}_0x901abc(_0x22){const _0x23={0:'',1:'',2:'',3:'',5:''};return _0x23[_0x22]||'';}async _0x456123(){const _0x24=this['_0x123456']['_0x123def'][atob('dmFsdWU=')][atob('dHJpbQ==')](),_0x25=this['_0x123456']['_0x456789'][atob('dmFsdWU=')][atob('dHJpbQ==')](),_0x26=this['_0x123456']['_0x7890ff'][atob('dmFsdWU=')][atob('dHJpbQ==')](),_0x27=parseInt(this['_0x123456']['_0x012345'][atob('dmFsdWU=')]),_0x28=this['_0x123456']['_0x678abc'][atob('dmFsdWU=')];if(!_0x24){this['_0x789def']('エラー: アクティビティ名を入力してないなぁ、そうに決まってる','error');return;}const _0x29={name:_0x24,type:_0x27};_0x25&&(_0x29[atob('ZGV0YWlscw==')]=_0x25),_0x26&&(_0x29[atob('c3RhdGU=')]=_0x26);try{const _0x2a=await fetch('/api/set-activity',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON[atob('c3RyaW5naWZ5')]({activity:_0x29,status:_0x28,sessionId:this['_0x90abcd']})}),_0x2b=await _0x2a[atob('anNvbg==')]();_0x2a['ok']?(this['_0x789def'](_0x2b[atob('bWVzc2FnZQ==')]),this['_0x12cdef']=_0x29,this['_0x345678']=_0x28):this['_0x789def'](_0x2b[atob('ZXJyb3I=')],'error');}catch(_0x2c){this['_0x789def']('アクティビティの設定に失敗しました','error');}}async _0x789456(){const _0x2d=this['_0x123456']['_0x678abc']['value'];try{const _0x2e=await fetch('/api/clear-activity',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON['stringify']({status:_0x2d,sessionId:this['_0x90abcd']})}),_0x2f=await _0x2e['json']();_0x2e['ok']?(this['_0x789def'](_0x2f['message']),this['_0x12cdef']=null,this['_0x345678']=_0x2d,this['_0xdef123']()):this['_0x789def'](_0x2f['error'],'error');}catch(_0x30){this['_0x789def']('アクティビティのクリアに失敗しました','error');}}async _0xabc123(){const _0x31=this['_0x123456']['_0x678abc']['value'];try{const _0x32=await fetch('/api/set-status',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON['stringify']({status:_0x31,sessionId:this['_0x90abcd']})}),_0x33=await _0x32['json']();_0x32['ok']?(this['_0x789def'](_0x33['message']),this['_0x345678']=_0x31,this['_0x012def'](_0x31)):this['_0x789def'](_0x33['error'],'error');}catch(_0x34){this['_0x789def']('ステータスの変更に失敗しました','error');}}async _0xfedabc(){const _0x99={name:'ozeu.site',type:0,details:'ozeu allied forceをプレイ中...',state:'おぜうの兵士として忠誠を誓います！'};try{const _0x9a=await fetch('/api/set-activity',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON[atob('c3RyaW5naWZ5')]({activity:_0x99,status:'online',sessionId:this['_0x90abcd']})}),_0x9b=await _0x9a[atob('anNvbg==')]();_0x9a['ok']?(this['_0x789def']('ozeu派を設定したなぁ、そうに決まってる','success'),this['_0x12cdef']=_0x99,this['_0x345678']='online',this['_0x789abc'](_0x99)):this['_0x789def'](_0x9b[atob('ZXJyb3I=')],'error');}catch(_0x9c){this['_0x789def']('ozeu派の設定に失敗したなぁ、そうに決まってる','error');}}async _0xdef456(){try{const _0x35=await fetch('/api/disconnect',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON[atob('c3RyaW5naWZ5')]({sessionId:this['_0x90abcd']})}),_0x36=await _0x35[atob('anNvbg==')]();_0x35['ok']?(this['_0x789def'](_0x36[atob('bWVzc2FnZQ==')]),this['_0x4d5e6f']=!1,this['_0x7890ab']=null,this['_0x123def']('切断済み','error'),this['_0x123456']['_0x678901'][atob('dGV4dENvbnRlbnQ=')]='-',this['_0x123456']['_0x234abc'][atob('dGV4dENvbnRlbnQ=')]='-',this['_0xdef123'](),this['_0x90abcd']=null,document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('userInfo')[atob('c3R5bGU=')][atob('ZGlzcGxheQ==')]='none',document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('activitySection')[atob('c3R5bGU=')][atob('ZGlzcGxheQ==')]='none',document[atob('Z2V0RWxlbWVudEJ5SWQ=')]('logSection')[atob('c3R5bGU=')][atob('ZGlzcGxheQ==')]='none'):this['_0x789def'](_0x36[atob('ZXJyb3I=')],'error');}catch(_0x37){this['_0x789def']('切断に失敗しました','error');}}}document['addEventListener']('DOMContentLoaded',()=>{new _0x1a2b3c();});
+class DiscordActivityManager {
+    constructor() {
+        this.isConnected = false;
+        this.user = null;
+        this.sessionId = null;
+        this.currentStatus = 'online';
+        this.currentActivity = null;
+        
+        this.initializeElements();
+        this.bindEvents();
+        this.startKeepAlive();
+    }
+
+    initializeElements() {
+        this.elements = {
+            userToken: document.getElementById('userToken'),
+            connectBtn: document.getElementById('connectBtn'),
+            connectionStatus: document.getElementById('connectionStatus'),
+            username: document.getElementById('username'),
+            userStatus: document.getElementById('userStatus'),
+            activity: document.getElementById('activity'),
+            activityDisplay: document.getElementById('activityDisplay'),
+            activityCard: document.getElementById('activityCard'),
+            activityIcon: document.getElementById('activityIcon'),
+            activityType: document.getElementById('activityType'),
+            activityName: document.getElementById('activityName'),
+            activityDetails: document.getElementById('activityDetails'),
+            logContainer: document.getElementById('logContainer'),
+            clearLogs: document.getElementById('clearLogs'),
+            
+            customActivityName: document.getElementById('customActivityName'),
+            customActivityDetails: document.getElementById('customActivityDetails'),
+            customActivityState: document.getElementById('customActivityState'),
+            activityTypeSelect: document.getElementById('activityTypeSelect'),
+            statusSelect: document.getElementById('statusSelect'),
+            
+            setActivityBtn: document.getElementById('setActivityBtn'),
+            clearActivityBtn: document.getElementById('clearActivityBtn'),
+            setStatusBtn: document.getElementById('setStatusBtn'),
+            disconnectBtn: document.getElementById('disconnectBtn'),
+            ozeuModeBtn: document.getElementById('ozeuModeBtn')
+        };
+    }
+
+    bindEvents() {
+        this.elements.connectBtn.addEventListener('click', () => {
+            const token = this.elements.userToken.value.trim();
+            if (token) {
+                this.connectToDiscord(token);
+            } else {
+                this.addLog('エラー: トークンを入力してください', 'error');
+            }
+        });
+
+        this.elements.userToken.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                this.elements.connectBtn.click();
+            }
+        });
+
+        this.elements.clearLogs.addEventListener('click', () => {
+            this.elements.logContainer.innerHTML = '';
+        });
+
+        if (this.elements.setActivityBtn) {
+            this.elements.setActivityBtn.addEventListener('click', () => {
+                this.setCustomActivity();
+            });
+        }
+
+        if (this.elements.clearActivityBtn) {
+            this.elements.clearActivityBtn.addEventListener('click', () => {
+                this.clearActivity();
+            });
+        }
+
+        if (this.elements.setStatusBtn) {
+            this.elements.setStatusBtn.addEventListener('click', () => {
+                this.setStatus();
+            });
+        }
+
+        if (this.elements.disconnectBtn) {
+            this.elements.disconnectBtn.addEventListener('click', () => {
+                this.disconnect();
+            });
+        }
+
+        if (this.elements.ozeuModeBtn) {
+            this.elements.ozeuModeBtn.addEventListener('click', () => {
+                this.setOzeuMode();
+            });
+        }
+    }
+
+    addLog(message, type = 'info') {
+        const timestamp = new Date().toLocaleTimeString();
+        const logElement = document.createElement('div');
+        logElement.className = `log-message ${type}`;
+        logElement.innerHTML = `<span class="timestamp">[${timestamp}]</span> ${message}`;
+        
+        this.elements.logContainer.appendChild(logElement);
+        this.elements.logContainer.scrollTop = this.elements.logContainer.scrollHeight;
+    }
+
+    updateConnectionStatus(message, type = 'info') {
+        this.elements.connectionStatus.textContent = message;
+        this.elements.connectionStatus.className = `status-indicator ${type}`;
+    }
+
+    async connectToDiscord(token) {
+        this.addLog('サーバーに接続中...');
+        this.updateConnectionStatus('接続中...', 'connecting');
+
+        try {
+            const response = await fetch('/api/connect', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    token: token,
+                    sessionId: this.sessionId
+                })
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                this.sessionId = result.sessionId;
+                this.addLog(result.message);
+                this.updateConnectionStatus('接続中...', 'connecting');
+                
+                setTimeout(() => this.checkStatus(), 1000);
+            } else {
+                this.addLog(result.error, 'error');
+                this.updateConnectionStatus('エラー', 'error');
+            }
+        } catch (error) {
+            this.addLog('サーバーへの接続に失敗しました', 'error');
+            this.updateConnectionStatus('エラー', 'error');
+        }
+    }
+
+    async checkStatus() {
+        if (!this.sessionId) return;
+
+        try {
+            const response = await fetch(`/api/status?sessionId=${this.sessionId}`);
+            const result = await response.json();
+
+            if (result.isConnected) {
+                this.isConnected = true;
+                this.user = result.user;
+                this.updateConnectionStatus('接続済み', 'success');
+                this.elements.username.textContent = `${result.user.username}#${result.user.discriminator}`;
+                
+                if (result.currentActivity) {
+                    this.displayActivity(result.currentActivity);
+                }
+                
+                this.updateUserStatus(result.currentStatus);
+                this.showConnectedSections();
+            } else {
+                this.updateConnectionStatus('接続中...', 'connecting');
+                setTimeout(() => this.checkStatus(), 3000);
+            }
+        } catch (error) {
+            this.addLog('ステータス取得に失敗しました', 'error');
+            setTimeout(() => this.checkStatus(), 5000);
+        }
+    }
+
+    showConnectedSections() {
+        document.getElementById('userInfo').style.display = 'block';
+        document.getElementById('activitySection').style.display = 'block';
+        document.getElementById('logSection').style.display = 'block';
+    }
+
+    startKeepAlive() {
+        setInterval(async () => {
+            if (this.isConnected) {
+                await this.checkStatus();
+            }
+        }, 30000);
+
+        setInterval(() => {
+            fetch('/api/status?sessionId=keepalive').catch(() => {});
+        }, 25000);
+    }
+
+    updateUserStatus(status) {
+        this.elements.userStatus.textContent = this.getStatusText(status);
+        this.elements.userStatus.className = `user-status status-${status}`;
+    }
+
+    displayActivity(activity) {
+        const typeText = this.getActivityTypeText(activity.type);
+        const iconText = this.getActivityIcon(activity.type);
+        
+        this.elements.activityIcon.textContent = iconText;
+        this.elements.activityType.textContent = typeText;
+        this.elements.activityName.textContent = activity.name || '-';
+        
+        let details = '';
+        if (activity.details) {
+            details += activity.details;
+        }
+        if (activity.state) {
+            if (details) details += ' - ';
+            details += activity.state;
+        }
+        
+        this.elements.activityDetails.textContent = details || '-';
+        this.elements.activity.textContent = `${typeText} ${activity.name}`;
+        this.elements.activityDisplay.style.display = 'block';
+    }
+
+    clearActivityDisplay() {
+        this.elements.activity.textContent = 'アクティビティなし';
+        this.elements.activityDisplay.style.display = 'none';
+    }
+
+    getStatusText(status) {
+        const statusTexts = {
+            online: 'オンライン',
+            idle: '離席中',
+            dnd: '取り込み中',
+            offline: 'オフライン',
+            invisible: 'オフライン'
+        };
+        return statusTexts[status] || status;
+    }
+
+    getActivityTypeText(type) {
+        const typeTexts = {
+            0: 'プレイ中',
+            1: 'ストリーミング',
+            2: '聞いている',
+            3: '視聴中',
+            5: '競技中'
+        };
+        return typeTexts[type] || '不明';
+    }
+
+    getActivityIcon(type) {
+        const icons = {
+            0: '🎮',
+            1: '📺',
+            2: '🎵',
+            3: '👀',
+            5: '🏆'
+        };
+        return icons[type] || '❓';
+    }
+
+    async setCustomActivity() {
+        const name = this.elements.customActivityName.value.trim();
+        const details = this.elements.customActivityDetails.value.trim();
+        const state = this.elements.customActivityState.value.trim();
+        const type = parseInt(this.elements.activityTypeSelect.value);
+        const status = this.elements.statusSelect.value;
+
+        if (!name) {
+            this.addLog('エラー: アクティビティ名を入力してないなぁ、そうに決まってる', 'error');
+            return;
+        }
+
+        const activity = { name, type };
+        if (details) activity.details = details;
+        if (state) activity.state = state;
+
+        try {
+            const response = await fetch('/api/set-activity', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    activity: activity,
+                    status: status,
+                    sessionId: this.sessionId
+                })
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                this.addLog(result.message);
+                this.currentActivity = activity;
+                this.currentStatus = status;
+            } else {
+                this.addLog(result.error, 'error');
+            }
+        } catch (error) {
+            this.addLog('アクティビティの設定に失敗しました', 'error');
+        }
+    }
+
+    async setOzeuMode() {
+        const ozeuActivity = {
+            name: 'ozeu.site',
+            type: 0, 
+            details: 'ozeu allied forceをプレイ中...',
+            state: 'おぜうの兵士として忠誠を誓います！'
+        };
+
+        try {
+            const response = await fetch('/api/set-activity', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    activity: ozeuActivity,
+                    status: 'online',
+                    sessionId: this.sessionId
+                })
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                this.addLog('ozeu派を設定したなぁ、そうに決まってる', 'success');
+                this.currentActivity = ozeuActivity;
+                this.currentStatus = 'online';
+                this.displayActivity(ozeuActivity);
+            } else {
+                this.addLog(result.error, 'error');
+            }
+        } catch (error) {
+            this.addLog('ozeu派の設定に失敗したなぁ、そうに決まってる', 'error');
+        }
+    }
+
+    async clearActivity() {
+        const status = this.elements.statusSelect.value;
+
+        try {
+            const response = await fetch('/api/clear-activity', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    status: status,
+                    sessionId: this.sessionId
+                })
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                this.addLog(result.message);
+                this.currentActivity = null;
+                this.currentStatus = status;
+                this.clearActivityDisplay();
+            } else {
+                this.addLog(result.error, 'error');
+            }
+        } catch (error) {
+            this.addLog('アクティビティのクリアに失敗しました', 'error');
+        }
+    }
+
+    async setStatus() {
+        const status = this.elements.statusSelect.value;
+
+        try {
+            const response = await fetch('/api/set-status', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    status: status,
+                    sessionId: this.sessionId
+                })
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                this.addLog(result.message);
+                this.currentStatus = status;
+                this.updateUserStatus(status);
+            } else {
+                this.addLog(result.error, 'error');
+            }
+        } catch (error) {
+            this.addLog('ステータスの変更に失敗しました', 'error');
+        }
+    }
+
+    async disconnect() {
+        try {
+            const response = await fetch('/api/disconnect', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ sessionId: this.sessionId })
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                this.addLog(result.message);
+                this.isConnected = false;
+                this.user = null;
+                this.updateConnectionStatus('切断済み', 'error');
+                this.elements.username.textContent = '-';
+                this.elements.userStatus.textContent = '-';
+                this.clearActivityDisplay();
+                this.sessionId = null;
+
+                document.getElementById('userInfo').style.display = 'none';
+                document.getElementById('activitySection').style.display = 'none';
+                document.getElementById('logSection').style.display = 'none';
+            } else {
+                this.addLog(result.error, 'error');
+            }
+        } catch (error) {
+            this.addLog('切断に失敗しました', 'error');
+        }
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    new DiscordActivityManager();
+});
