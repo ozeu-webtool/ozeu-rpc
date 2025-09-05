@@ -1,1 +1,231 @@
-const _0x1a2b=require('express'),_0x3c4d=require('path'),_0x5e6f=require('cors'),{v4:_0xdef0}=require('uuid'),_0x1234=require('./discord-bot'),_0x5678=_0x1a2b(),_0x9012=process['env']['PORT']||3000,_0x3456=new Map();_0x5678['use'](_0x5e6f()),_0x5678['use'](_0x1a2b['json']());_0x5678[atob('cG9zdA==')]('/api/connect',async(_0x18,_0x19)=>{const{'token':_0x20,'sessionId':_0x21}=_0x18[atob('Ym9keQ==')];if(!_0x20)return _0x19[atob('c3RhdHVz')](400)[atob('anNvbg==')]({'error':'トークンが必要です'});const _0x22=_0x21||_0xdef0();try{_0x3456[atob('Zm9yRWFjaA==')]((botInstance)=>{botInstance['_0x1473']();});_0x3456[atob('Y2xlYXI=')]();const _0x23=new _0x1234();await _0x23['_0xdef1'](_0x20),_0x3456[atob('c2V0')](_0x22,_0x23),_0x19[atob('anNvbg==')]({'success':!0,'message':'接続を開始しました','sessionId':_0x22});}catch(_0x25){console[atob('ZXJyb3I=')]('Connection error:',_0x25);_0x19[atob('c3RhdHVz')](500)[atob('anNvbg==')]({'error':'接続に失敗しました: '+_0x25[atob('bWVzc2FnZQ==')]});}});_0x5678[atob('cG9zdA==')]('/api/set-activity',(_0x26,_0x27)=>{const{'activity':_0x28,'status':_0x29='online','sessionId':_0x30}=_0x26[atob('Ym9keQ==')];if(!_0x30)return _0x27[atob('c3RhdHVz')](400)[atob('anNvbg==')]({'error':'セッションIDが必要です'});const _0x31=_0x3456[atob('Z2V0')](_0x30);if(!_0x31)return _0x27[atob('c3RhdHVz')](404)[atob('anNvbg==')]({'error':'接続が見つかりません'});try{const _0x32=_0x31['_0x1472'](_0x29,_0x28);_0x32?_0x27[atob('anNvbg==')]({'success':!0,'message':'アクティビティを設定しました'}):_0x27[atob('anNvbg==')]({'success':!0,'message':'アクティビティを保存しました（接続後に適用されます）'});}catch(_0x33){_0x27[atob('c3RhdHVz')](500)[atob('anNvbg==')]({'error':'アクティビティの設定に失敗しました'});}});_0x5678[atob('cG9zdA==')]('/api/clear-activity',(_0x34,_0x35)=>{const{'status':_0x36='online','sessionId':_0x37}=_0x34[atob('Ym9keQ==')];if(!_0x37)return _0x35[atob('c3RhdHVz')](400)[atob('anNvbg==')]({'error':'セッションIDが必要です'});const _0x38=_0x3456[atob('Z2V0')](_0x37);if(!_0x38)return _0x35[atob('c3RhdHVz')](404)[atob('anNvbg==')]({'error':'接続が見つかりません'});try{const _0x39=_0x38['_0x1472'](_0x36,null);_0x39?_0x35[atob('anNvbg==')]({'success':!0,'message':'アクティビティをクリアしました'}):_0x35[atob('anNvbg==')]({'success':!0,'message':'アクティビティをクリア予約しました'});}catch(_0x40){_0x35[atob('c3RhdHVz')](500)[atob('anNvbg==')]({'error':'アクティビティのクリアに失敗しました'});}});_0x5678[atob('Z2V0')]('/api/status',(_0x41,_0x42)=>{const{'sessionId':_0x43}=_0x41[atob('cXVlcnk=')];if(!_0x43)return _0x42[atob('c3RhdHVz')](400)[atob('anNvbg==')]({'error':'セッションIDが必要です'});const _0x44=_0x3456[atob('Z2V0')](_0x43);if(!_0x44)return _0x42[atob('anNvbg==')]({'isConnected':!1,'message':'接続が見つかりません'});const _0x45=_0x44['_0x1474']();_0x42[atob('anNvbg==')](_0x45);});_0x5678[atob('cG9zdA==')]('/api/set-status',(_0x46,_0x47)=>{const{'status':_0x48,'sessionId':_0x49}=_0x46[atob('Ym9keQ==')];if(!_0x49)return _0x47[atob('c3RhdHVz')](400)[atob('anNvbg==')]({'error':'セッションIDが必要です'});if(!_0x48)return _0x47[atob('c3RhdHVz')](400)[atob('anNvbg==')]({'error':'ステータスが必要です'});const _0x50=_0x3456[atob('Z2V0')](_0x49);if(!_0x50)return _0x47[atob('c3RhdHVz')](404)[atob('anNvbg==')]({'error':'接続が見つかりません'});try{const _0x51=_0x50[atob('Y3VycmVudEFjdGl2aXR5')],_0x52=_0x50['_0x1472'](_0x48,_0x51);_0x52?_0x47[atob('anNvbg==')]({'success':!0,'message':`ステータスを${_0x48}に変更しました`}):_0x47[atob('anNvbg==')]({'success':!0,'message':'ステータスを保存しました（接続後に適用されます）'});}catch(_0x53){_0x47[atob('c3RhdHVz')](500)[atob('anNvbg==')]({'error':'ステータスの変更に失敗しました'});}});_0x5678[atob('cG9zdA==')]('/api/disconnect',(_0x54,_0x55)=>{const{'sessionId':_0x56}=_0x54[atob('Ym9keQ==')];if(!_0x56)return _0x55[atob('c3RhdHVz')](400)[atob('anNvbg==')]({'error':'セッションIDが必要です'});try{const _0x57=_0x3456[atob('Z2V0')](_0x56);_0x57&&(_0x57['_0x1473'](),_0x3456[atob('ZGVsZXRl')](_0x56)),_0x55[atob('anNvbg==')]({'success':!0,'message':'切断しました'});}catch(_0x58){_0x55[atob('c3RhdHVz')](500)[atob('anNvbg==')]({'error':'切断に失敗しました'});}});_0x5678[atob('Z2V0')]('/style.css',(_0x69,_0x6a)=>{_0x6a[atob('c2V0SGVhZGVy')]('Content-Type','text/css'),_0x6a[atob('c2VuZEZpbGU=')](_0x3c4d[atob('am9pbg==')](__dirname,'style.css'));});_0x5678[atob('Z2V0')]('/script.js',(_0x6b,_0x6c)=>{_0x6c[atob('c2V0SGVhZGVy')]('Content-Type','application/javascript'),_0x6c[atob('c2VuZEZpbGU=')](_0x3c4d[atob('am9pbg==')](__dirname,'script.js'));});_0x5678[atob('Z2V0')]('/ozeu-logo.png',(_0x73,_0x74)=>{_0x74[atob('c2V0SGVhZGVy')]('Content-Type','image/png'),_0x74[atob('c2VuZEZpbGU=')](_0x3c4d[atob('am9pbg==')](__dirname,'ozeu-logo.png'));});_0x5678[atob('Z2V0')]('/',(_0x6d,_0x6e)=>{_0x6e[atob('c2VuZEZpbGU=')](_0x3c4d[atob('am9pbg==')](__dirname,'index.html'));});_0x5678[atob('Z2V0')]('*',(_0x6f,_0x70)=>{_0x70[atob('c2VuZEZpbGU=')](_0x3c4d[atob('am9pbg==')](__dirname,'index.html'));});_0x5678[atob('bGlzdGVu')](_0x9012,()=>{console[atob('bG9n')](`Server is running on port ${_0x9012}`),console[atob('bG9n')]('Discord Activity Tracker - Server Side'),process['on']('SIGINT',()=>{console[atob('bG9n')]('\n終了処理中...'),_0x3456[atob('Zm9yRWFjaA==')](_0x71=>_0x71['_0x1473']()),process[atob('ZXhpdA==')]();}),process['on']('SIGTERM',()=>{console[atob('bG9n')]('\n終了処理中...'),_0x3456[atob('Zm9yRWFjaA==')](_0x72=>_0x72['_0x1473']()),process[atob('ZXhpdA==')]();});});
+const express = require('express');
+const path = require('path');
+const cors = require('cors');
+const { v4: uuidv4 } = require('uuid');
+const DiscordBot = require('./discord-bot');
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+const activeSessions = new Map();
+
+app.use(cors());
+app.use(express.json());
+
+app.post('/api/connect', async (req, res) => {
+    const { token, sessionId } = req.body;
+    
+    if (!token) {
+        return res.status(400).json({ error: 'トークンが必要です' });
+    }
+    
+    const currentSessionId = sessionId || uuidv4();
+    
+    try {
+        activeSessions.forEach((botInstance) => {
+            botInstance.disconnect();
+        });
+        activeSessions.clear();
+        
+        const botInstance = new DiscordBot();
+        await botInstance.connect(token);
+        activeSessions.set(currentSessionId, botInstance);
+        
+        res.json({
+            success: true,
+            message: '接続を開始しました',
+            sessionId: currentSessionId
+        });
+        
+    } catch (error) {
+        console.error('Connection error:', error);
+        res.status(500).json({
+            error: '接続に失敗しました: ' + error.message
+        });
+    }
+});
+
+app.post('/api/set-activity', (req, res) => {
+    const { activity, status = 'online', sessionId } = req.body;
+    
+    if (!sessionId) {
+        return res.status(400).json({ error: 'セッションIDが必要です' });
+    }
+    
+    const botInstance = activeSessions.get(sessionId);
+    if (!botInstance) {
+        return res.status(404).json({ error: '接続が見つかりません' });
+    }
+    
+    try {
+        const success = botInstance.updatePresence(status, activity);
+        if (success) {
+            res.json({
+                success: true,
+                message: 'アクティビティを設定しました'
+            });
+        } else {
+            res.json({
+                success: true,
+                message: 'アクティビティを保存しました（接続後に適用されます）'
+            });
+        }
+    } catch (error) {
+        res.status(500).json({
+            error: 'アクティビティの設定に失敗しました'
+        });
+    }
+});
+
+app.post('/api/clear-activity', (req, res) => {
+    const { status = 'online', sessionId } = req.body;
+    
+    if (!sessionId) {
+        return res.status(400).json({ error: 'セッションIDが必要です' });
+    }
+    
+    const botInstance = activeSessions.get(sessionId);
+    if (!botInstance) {
+        return res.status(404).json({ error: '接続が見つかりません' });
+    }
+    
+    try {
+        const success = botInstance.updatePresence(status, null);
+        if (success) {
+            res.json({
+                success: true,
+                message: 'アクティビティをクリアしました'
+            });
+        } else {
+            res.json({
+                success: true,
+                message: 'アクティビティをクリア予約しました'
+            });
+        }
+    } catch (error) {
+        res.status(500).json({
+            error: 'アクティビティのクリアに失敗しました'
+        });
+    }
+});
+
+app.get('/api/status', (req, res) => {
+    const { sessionId } = req.query;
+    
+    if (!sessionId) {
+        return res.status(400).json({ error: 'セッションIDが必要です' });
+    }
+    
+    const botInstance = activeSessions.get(sessionId);
+    if (!botInstance) {
+        return res.json({
+            isConnected: false,
+            message: '接続が見つかりません'
+        });
+    }
+    
+    const status = botInstance.getStatus();
+    res.json(status);
+});
+
+app.post('/api/set-status', (req, res) => {
+    const { status, sessionId } = req.body;
+    
+    if (!sessionId) {
+        return res.status(400).json({ error: 'セッションIDが必要です' });
+    }
+    
+    if (!status) {
+        return res.status(400).json({ error: 'ステータスが必要です' });
+    }
+    
+    const botInstance = activeSessions.get(sessionId);
+    if (!botInstance) {
+        return res.status(404).json({ error: '接続が見つかりません' });
+    }
+    
+    try {
+        const currentActivity = botInstance.currentActivity;
+        const success = botInstance.updatePresence(status, currentActivity);
+        
+        if (success) {
+            res.json({
+                success: true,
+                message: `ステータスを${status}に変更しました`
+            });
+        } else {
+            res.json({
+                success: true,
+                message: 'ステータスを保存しました（接続後に適用されます）'
+            });
+        }
+    } catch (error) {
+        res.status(500).json({
+            error: 'ステータスの変更に失敗しました'
+        });
+    }
+});
+
+app.post('/api/disconnect', (req, res) => {
+    const { sessionId } = req.body;
+    
+    if (!sessionId) {
+        return res.status(400).json({ error: 'セッションIDが必要です' });
+    }
+    
+    try {
+        const botInstance = activeSessions.get(sessionId);
+        if (botInstance) {
+            botInstance.disconnect();
+            activeSessions.delete(sessionId);
+        }
+        
+        res.json({
+            success: true,
+            message: '切断しました'
+        });
+    } catch (error) {
+        res.status(500).json({
+            error: '切断に失敗しました'
+        });
+    }
+});
+
+app.get('/style.css', (req, res) => {
+    res.setHeader('Content-Type', 'text/css');
+    res.sendFile(path.join(__dirname, 'style.css'));
+});
+
+app.get('/script.js', (req, res) => {
+    res.setHeader('Content-Type', 'application/javascript');
+    res.sendFile(path.join(__dirname, 'script.js'));
+});
+
+app.get('/ozeu-logo.png', (req, res) => {
+    res.setHeader('Content-Type', 'image/png');
+    res.sendFile(path.join(__dirname, 'ozeu-logo.png'));
+});
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+    console.log('Discord Activity Tracker - Server Side');
+    
+    process.on('SIGINT', () => {
+        console.log('\n終了処理中...');
+        activeSessions.forEach(botInstance => botInstance.disconnect());
+        process.exit(0);
+    });
+    
+    process.on('SIGTERM', () => {
+        console.log('\n終了処理中...');
+        activeSessions.forEach(botInstance => botInstance.disconnect());
+        process.exit(0);
+    });
+});
