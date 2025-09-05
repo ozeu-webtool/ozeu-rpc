@@ -1,1 +1,295 @@
-const _0xa1b2=require('ws');class _0xc3d4{constructor(){this['_0xe5f6']=null,this['_0x7890']=null,this['_0xab12']=null,this['_0xcd34']=null,this['_0xef56']=null,this['_0x7891']=null,this['_0x2345']=!1,this['_0x6789']=0,this['_0x0abc']=5,this['_0xdef0']=!0,this['_0x1234']=null,this['_0x5678']='online';}_0x9abc(_0x1,_0x2='info'){const _0x3=new Date()[atob('dG9Mb2NhbGVUaW1lU3RyaW5n')]();console[atob('bG9n')](`[${_0x3}] ${_0x2[atob('dG9VcHBlckNhc2U=')]()}: ${_0x1}`);}async _0xdef1(_0x4){this['_0x7890']=_0x4,this['_0x9abc']('Discord Gateway に接続中...'),this['_0xab12']&&(clearInterval(this['_0xab12']),this['_0xab12']=null),this['_0xe5f6']&&this['_0xe5f6'][atob('Y2xvc2U=')](),this['_0x2345']=!1;try{this['_0xe5f6']=new _0xa1b2('wss://gateway.discord.gg/?v=10&encoding=json'),this['_0xe5f6'][atob('b25vcGVu')]=()=>{this['_0x9abc']('WebSocket接続が確立されました'),this['_0x6789']=0;},this['_0xe5f6'][atob('b25tZXNzYWdl')]=_0x5=>{const _0x6=JSON[atob('cGFyc2U=')](_0x5[atob('ZGF0YQ==')]);this['_0x2468'](_0x6);},this['_0xe5f6'][atob('b25jbG9zZQ==')]=_0x7=>{this['_0x9abc'](`接続が切断されました (コード: ${_0x7[atob('Y29kZQ==')]}, 理由: ${_0x7[atob('cmVhc29u')]||'Unknown'})`),this['_0x2345']=!1,this['_0xab12']&&(clearInterval(this['_0xab12']),this['_0xab12']=null,this['_0x9abc']('ハートビート停止')),this['_0xdef0']&&this['_0x6789']<this['_0x0abc']&&(_0x7[atob('Y29kZQ==')]===4014||_0x7[atob('Y29kZQ==')]===4004||_0x7[atob('Y29kZQ==')]===4010||_0x7[atob('Y29kZQ==')]===4011||_0x7[atob('Y29kZQ==')]===4012||_0x7[atob('Y29kZQ==')]===4013||_0x7[atob('Y29kZQ==')]===4014?(this['_0x9abc'](`致命的なエラー (${_0x7[atob('Y29kZQ==')]}): 再接続を停止します`,'error'),this['_0xdef0']=!1):(this['_0x6789']++,this['_0x9abc'](`再接続試行 ${this['_0x6789']}/${this['_0x0abc']} (${Math['round'](5000*Math['pow'](1.5,this['_0x6789']-1)+Math['random']()*1000)}ms後)`),setTimeout(()=>{this['_0xdef0']&&this['_0xdef1'](this['_0x7890']);},Math['min'](5000*Math['pow'](1.5,this['_0x6789']-1),30000)+Math['random']()*1000)));},this['_0xe5f6'][atob('b25lcnJvcg==')]=_0x8=>{this['_0x9abc'](`WebSocketエラー: ${_0x8[atob('bWVzc2FnZQ==')]||'Unknown error'}`,'error'),console[atob('ZXJyb3I=')]('Discord WebSocket error:',_0x8),this['_0x2345']=!1,this['_0xab12']&&(clearInterval(this['_0xab12']),this['_0xab12']=null)};}catch(_0x9){this['_0x9abc'](`接続エラー: ${_0x9[atob('bWVzc2FnZQ==')]}`,'error'),this['_0x2345']=!1;}}_0x2468(_0xa){const{op:_0xb,d:_0xc,s:_0xd,t:_0xe}=_0xa;_0xd!==null&&(this['_0xcd34']=_0xd);switch(_0xb){case 10:this['_0x9abc'](`Helloを受信, ハートビート間隔: ${_0xc[atob('aGVhcnRiZWF0X2ludGVydmFs')]}ms`),this['_0x369c'](_0xc[atob('aGVhcnRiZWF0X2ludGVydmFs')]),this['_0x147d']();break;case 0:this['_0x258e'](_0xe,_0xc);break;case 1:this['_0x147e']();break;case 7:this['_0x9abc']('再接続が必要です'),this['_0x036a']();break;case 9:this['_0x9abc']('無効なセッションです - 再認証が必要','error'),this['_0xef56']=null,setTimeout(()=>{this['_0xdef0']&&this['_0x147d']();},1000);break;case 11:break;default:this['_0x9abc'](`未知のOPコード: ${_0xb}`);}}_0x258e(_0xf,_0x10){switch(_0xf){case 'READY':this['_0x1470'](_0x10);break;case 'PRESENCE_UPDATE':this['_0x1471'](_0x10);break;}}_0x1470(_0x11){this['_0x7891']=_0x11[atob('dXNlcg==')],this['_0xef56']=_0x11[atob('c2Vzc2lvbl9pZA==')],this['_0x2345']=!0,this['_0x9abc'](`ログイン成功: ${_0x11[atob('dXNlcg==')][atob('dXNlcm5hbWU=')]}#${_0x11[atob('dXNlcg==')][atob('ZGlzY3JpbWluYXRvcg==')]}`),(this['_0x1234']||this['_0x5678']!=='online')&&setTimeout(()=>{this['_0x1472'](this['_0x5678'],this['_0x1234']);},1000);}_0x1471(_0x12){_0x12[atob('dXNlcg==')]&&_0x12[atob('dXNlcg==')][atob('aWQ=')]===this['_0x7891'][atob('aWQ=')]&&this['_0x9abc'](`プレゼンス更新: ${_0x12[atob('c3RhdHVz')]}`);}_0x147d(){if(!this['_0xe5f6']||this['_0xe5f6'][atob('cmVhZHlTdGF0ZQ==')]!==1){this['_0x9abc']('WebSocket未接続のため認証をスキップ','warn');return;}try{this['_0xe5f6'][atob('c2VuZA==')](JSON[atob('c3RyaW5naWZ5')]({op:2,d:{token:this['_0x7890'],properties:{os:'linux',browser:'discord-bot',device:'discord-bot'},intents:1<<8}})),this['_0x9abc']('認証情報を送信しました');}catch(_0x13){this['_0x9abc'](`認証送信エラー: ${_0x13[atob('bWVzc2FnZQ==')]}`,'error');}}_0x369c(_0x14){this['_0xab12']&&clearInterval(this['_0xab12']),this['_0xab12']=setInterval(()=>{this['_0x147e']();},_0x14),this['_0x9abc'](`ハートビート開始: ${_0x14}ms間隔`);}_0x147e(){if(this['_0xe5f6']&&this['_0xe5f6'][atob('cmVhZHlTdGF0ZQ==')]===1){try{this['_0xe5f6'][atob('c2VuZA==')](JSON[atob('c3RyaW5naWZ5')]({op:1,d:this['_0xcd34']}));}catch(_0x15){this['_0x9abc'](`ハートビート送信エラー: ${_0x15[atob('bWVzc2FnZQ==')]}`,'error'),this['_0xdef0']&&this['_0x036a']();}}else{this['_0xab12']&&(clearInterval(this['_0xab12']),this['_0xab12']=null,this['_0x9abc']('WebSocket接続なし - ハートビート停止','info'));}}_0x1472(_0x16='online',_0x17=null){this['_0x5678']=_0x16,this['_0x1234']=_0x17;if(!this['_0xe5f6']||this['_0xe5f6'][atob('cmVhZHlTdGF0ZQ==')]!==1){this['_0x9abc']('Discord未接続のため、設定を保存しました（接続後に適用されます）','warn');return!1;}try{this['_0xe5f6'][atob('c2VuZA==')](JSON[atob('c3RyaW5naWZ5')]({op:3,d:{status:_0x16,since:_0x16==='idle'?Date['now']():null,activities:_0x17?[_0x17]:[],afk:_0x16==='idle'}})),this['_0x9abc'](`プレゼンス更新: ${_0x16}, アクティビティ: ${_0x17?_0x17[atob('bmFtZQ==')]:'なし'}`);return!0;}catch(_0x18){this['_0x9abc'](`プレゼンス更新エラー: ${_0x18[atob('bWVzc2FnZQ==')]}`,'error');return!1;}}_0x036a(){this['_0x7890']&&setTimeout(()=>{this['_0xdef1'](this['_0x7890']);},1000);}_0x1473(){this['_0xdef0']=!1,this['_0xe5f6']&&this['_0xe5f6'][atob('Y2xvc2U=')](),this['_0xab12']&&clearInterval(this['_0xab12']),this['_0x9abc']('Discord接続を終了しました');}_0x1474(){return{isConnected:this['_0x2345'],user:this['_0x7891'],currentStatus:this['_0x5678'],currentActivity:this['_0x1234']};}}module[atob('ZXhwb3J0cw==')]=_0xc3d4;
+const WebSocket = require('ws');
+
+class DiscordBot {
+    constructor() {
+        this.websocket = null;
+        this.token = null;
+        this.heartbeatInterval = null;
+        this.sequenceNumber = null;
+        this.sessionId = null;
+        this.user = null;
+        this.isConnected = false;
+        this.reconnectAttempts = 0;
+        this.maxReconnectAttempts = 5;
+        this.shouldReconnect = true;
+        this.currentActivity = null;
+        this.currentStatus = 'online';
+    }
+
+    log(message, level = 'info') {
+        const timestamp = new Date().toLocaleTimeString();
+        console.log(`[${timestamp}] ${level.toUpperCase()}: ${message}`);
+    }
+
+    async connect(token) {
+        this.token = token;
+        this.log('Discord Gateway に接続中...');
+        
+        if (this.heartbeatInterval) {
+            clearInterval(this.heartbeatInterval);
+            this.heartbeatInterval = null;
+        }
+        
+        if (this.websocket) {
+            this.websocket.close();
+        }
+        
+        this.isConnected = false;
+
+        try {
+            this.websocket = new WebSocket('wss://gateway.discord.gg/?v=10&encoding=json');
+            
+            this.websocket.onopen = () => {
+                this.log('WebSocket接続が確立されました');
+                this.reconnectAttempts = 0;
+            };
+            
+            this.websocket.onmessage = (event) => {
+                const data = JSON.parse(event.data);
+                this.handleMessage(data);
+            };
+            
+            this.websocket.onclose = (event) => {
+                this.log(`接続が切断されました (コード: ${event.code}, 理由: ${event.reason || 'Unknown'})`);
+                this.isConnected = false;
+                
+                if (this.heartbeatInterval) {
+                    clearInterval(this.heartbeatInterval);
+                    this.heartbeatInterval = null;
+                    this.log('ハートビート停止');
+                }
+                
+                if (this.shouldReconnect && this.reconnectAttempts < this.maxReconnectAttempts) {
+                    if (event.code === 4014 || event.code === 4004 || event.code === 4010 || 
+                        event.code === 4011 || event.code === 4012 || event.code === 4013) {
+                        this.log(`致命的なエラー (${event.code}): 再接続を停止します`, 'error');
+                        this.shouldReconnect = false;
+                    } else {
+                        this.reconnectAttempts++;
+                        const delay = Math.min(5000 * Math.pow(1.5, this.reconnectAttempts - 1), 30000) + Math.random() * 1000;
+                        this.log(`再接続試行 ${this.reconnectAttempts}/${this.maxReconnectAttempts} (${Math.round(delay)}ms後)`);
+                        
+                        setTimeout(() => {
+                            if (this.shouldReconnect) {
+                                this.connect(this.token);
+                            }
+                        }, delay);
+                    }
+                }
+            };
+            
+            this.websocket.onerror = (error) => {
+                this.log(`WebSocketエラー: ${error.message || 'Unknown error'}`, 'error');
+                console.error('Discord WebSocket error:', error);
+                this.isConnected = false;
+                
+                if (this.heartbeatInterval) {
+                    clearInterval(this.heartbeatInterval);
+                    this.heartbeatInterval = null;
+                }
+            };
+            
+        } catch (error) {
+            this.log(`接続エラー: ${error.message}`, 'error');
+            this.isConnected = false;
+        }
+    }
+
+    handleMessage(message) {
+        const { op, d, s, t } = message;
+        
+        if (s !== null) {
+            this.sequenceNumber = s;
+        }
+
+        switch (op) {
+            case 10: 
+                this.log(`Helloを受信, ハートビート間隔: ${d.heartbeat_interval}ms`);
+                this.startHeartbeat(d.heartbeat_interval);
+                this.authenticate();
+                break;
+                
+            case 0: 
+                this.handleDispatch(t, d);
+                break;
+                
+            case 1: 
+                this.sendHeartbeat();
+                break;
+                
+            case 7: 
+                this.log('再接続が必要です');
+                this.reconnect();
+                break;
+                
+            case 9: 
+                this.log('無効なセッションです - 再認証が必要', 'error');
+                this.sessionId = null;
+                setTimeout(() => {
+                    if (this.shouldReconnect) {
+                        this.authenticate();
+                    }
+                }, 1000);
+                break;
+                
+            case 11:
+                break;
+                
+            default:
+                this.log(`未知のOPコード: ${op}`);
+        }
+    }
+
+    handleDispatch(eventType, data) {
+        switch (eventType) {
+            case 'READY':
+                this.handleReady(data);
+                break;
+                
+            case 'PRESENCE_UPDATE':
+                this.handlePresenceUpdate(data);
+                break;
+        }
+    }
+
+    handleReady(data) {
+        this.user = data.user;
+        this.sessionId = data.session_id;
+        this.isConnected = true;
+        
+        this.log(`ログイン成功: ${data.user.username}#${data.user.discriminator}`);
+        
+        if (this.currentActivity || this.currentStatus !== 'online') {
+            setTimeout(() => {
+                this.updatePresence(this.currentStatus, this.currentActivity);
+            }, 1000);
+        }
+    }
+
+    handlePresenceUpdate(data) {
+        if (data.user && data.user.id === this.user.id) {
+            this.log(`プレゼンス更新: ${data.status}`);
+        }
+    }
+
+    authenticate() {
+        if (!this.websocket || this.websocket.readyState !== WebSocket.OPEN) {
+            this.log('WebSocket未接続のため認証をスキップ', 'warn');
+            return;
+        }
+
+        try {
+            this.websocket.send(JSON.stringify({
+                op: 2,
+                d: {
+                    token: this.token,
+                    properties: {
+                        os: 'linux',
+                        browser: 'discord-bot',
+                        device: 'discord-bot'
+                    },
+                    intents: 1 << 8
+                }
+            }));
+            
+            this.log('認証情報を送信しました');
+        } catch (error) {
+            this.log(`認証送信エラー: ${error.message}`, 'error');
+        }
+    }
+
+    startHeartbeat(interval) {
+        if (this.heartbeatInterval) {
+            clearInterval(this.heartbeatInterval);
+        }
+        
+        this.heartbeatInterval = setInterval(() => {
+            this.sendHeartbeat();
+        }, interval);
+        
+        this.log(`ハートビート開始: ${interval}ms間隔`);
+    }
+
+    sendHeartbeat() {
+        if (this.websocket && this.websocket.readyState === WebSocket.OPEN) {
+            try {
+                this.websocket.send(JSON.stringify({
+                    op: 1,
+                    d: this.sequenceNumber
+                }));
+            } catch (error) {
+                this.log(`ハートビート送信エラー: ${error.message}`, 'error');
+                if (this.shouldReconnect) {
+                    this.reconnect();
+                }
+            }
+        } else {
+            if (this.heartbeatInterval) {
+                clearInterval(this.heartbeatInterval);
+                this.heartbeatInterval = null;
+                this.log('WebSocket接続なし - ハートビート停止', 'info');
+            }
+        }
+    }
+
+    updatePresence(status = 'online', activity = null) {
+        this.currentStatus = status;
+        this.currentActivity = activity;
+
+        if (!this.websocket || this.websocket.readyState !== WebSocket.OPEN) {
+            this.log('Discord未接続のため、設定を保存しました（接続後に適用されます）', 'warn');
+            return false;
+        }
+
+        try {
+            this.websocket.send(JSON.stringify({
+                op: 3,
+                d: {
+                    status: status,
+                    since: status === 'idle' ? Date.now() : null,
+                    activities: activity ? [activity] : [],
+                    afk: status === 'idle'
+                }
+            }));
+            
+            this.log(`プレゼンス更新: ${status}, アクティビティ: ${activity ? activity.name : 'なし'}`);
+            return true;
+        } catch (error) {
+            this.log(`プレゼンス更新エラー: ${error.message}`, 'error');
+            return false;
+        }
+    }
+
+    reconnect() {
+        if (this.token) {
+            setTimeout(() => {
+                this.connect(this.token);
+            }, 1000);
+        }
+    }
+
+    disconnect() {
+        this.shouldReconnect = false;
+        
+        if (this.websocket) {
+            this.websocket.close();
+        }
+        
+        if (this.heartbeatInterval) {
+            clearInterval(this.heartbeatInterval);
+        }
+        
+        this.log('Discord接続を終了しました');
+    }
+
+    getStatus() {
+        return {
+            isConnected: this.isConnected,
+            user: this.user,
+            currentStatus: this.currentStatus,
+            currentActivity: this.currentActivity
+        };
+    }
+}
+
+module.exports = DiscordBot;
